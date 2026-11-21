@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Guardianes del Tiempo — Viaje por la historia</title>
+  <link rel="stylesheet" href="static/css/styles.css" />
+</head>
+<body>
+  <div class="desktop-backdrop">
+    <div class="phone-shell" id="phone-shell">
+      <div class="phone-notch" aria-hidden="true"></div>
+      <main id="app-root" class="app-root"></main>
+    </div>
+  </div>
+
+  <!-- Formative Feedback Modal -->
+  <div id="feedback-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" id="feedback-card">
+      <div class="modal-icon" id="feedback-icon"></div>
+      <h3 class="modal-title" id="feedback-title"></h3>
+      <p class="modal-body" id="feedback-body"></p>
+      <button class="btn btn-primary-green modal-btn" id="feedback-close-btn">Continuar</button>
+    </div>
+  </div>
+
+  <script>
+    window.__STATIC_MODE__ = true;
+  </script>
+  <script src="static/js/curriculum.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+</html>
